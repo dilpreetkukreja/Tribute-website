@@ -1,0 +1,72 @@
+:root{
+	box-sizing: border-box;
+	font-size:62.5%;
+	font-family: 'Lato', sans-serif;
+}
+body{
+	margin:0;
+}
+#main{
+	background-color: #eee;
+	text-align: center;
+}
+#title{
+	font-size:4rem;
+	padding-top: 4rem;
+	margin-bottom: 1rem;
+
+}
+#title span{
+	font-size: 0.5em;
+}
+#img-div{
+	width:70%;
+	margin:0 auto;
+	background-color: #ffffff;
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+
+
+#image{
+	max-width:60%;
+	height:auto;
+}
+#img-caption, footer{
+	font-size:1.6rem;
+	padding-top: 2rem;
+}
+footer{
+	height:100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+#tribute-info{
+	font-size:1.6rem;
+	width:60%;
+	margin:0 auto;
+}
+
+#tribute-info ul{
+	text-align: left;
+}
+
+#tribute-info li{
+	list-style: none;
+	margin-bottom: 1rem;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
