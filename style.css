@@ -23,14 +23,14 @@ body{
 	width:70%;
 	margin:0 auto;
 	background-color: #ffffff;
-	padding-top: 3rem;
-	padding-bottom: 3rem;
+	padding: 3rem;
+
 }
-
-
 #image{
 	max-width:60%;
 	height:auto;
+	display: block;
+	margin:0 auto;
 }
 #img-caption, footer{
 	font-size:1.6rem;
