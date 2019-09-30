@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!-- saved from url=(0031)http://localhost:3024/flex.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./flex_files/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <style>
+      .container{
+        border:1px solid red;
+
+      }
+       /* dont use percentage for height & use your own classes to set height on container*/
+      .mycontainer{
+        height:100vh;
+      }
+     
+      .row{
+        border:1px solid black;
+
+      }
+       /* dont use percentage for height & use your own classes to set height on row*/
+      /*.myrow{
+        height:25vh;
+      }*/
+      [class^=col]{
+        border:1px dotted black;
+      }
+    </style>
+  </head>
+  <body><script id="__bs_script__">//<![CDATA[
+    document.write("<script async src='/browser-sync/browser-sync-client.2.14.0.js'><\/script>".replace("HOST", location.hostname));
+//]]></script><script async="" src="./flex_files/browser-sync-client.2.14.0.js"></script>
+
+    <!-- https://stackoverflow.com/questions/47286708/cant-get-height-attribute-in-bootstrap-4-alpha-to-work-->
+     <div class="container mycontainer">
+      <!-- Row have display flex by default-->
+      <div class="row flex">
+        <div class="col">
+          row 1 col 1 
+        </div>
+        <div class="col">
+          row 1 col 2 
+        </div>
+        <!-- sizing acc to content--->
+        <div class="col">
+          row 1 col 3
+        </div>
+
+      </div>
+      <!-- changind flex direction to column-->
+      <div class="row flex-column">
+        <div class="col">
+          row 2 col 1 
+        </div>
+        <div class="col">
+          row 2 col 2 
+        </div>
+        <!-- sizing acc to content--->
+        <div class="col">
+          row 2 col 3
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          row 4 col 1 span 2
+        </div>
+        <div class="col-3">
+          row 4 col 2  span 3
+        </div>
+        <!-- sizing acc to content--->
+        <div class="col-4">
+          row 4 col 3  span 4
+        </div>
+
+      </div>
+      <!-- changing justify content center-->
+      <div class="row  justify-content-center">
+        <div class="col-2">
+          row 5 col 1 span 2
+        </div>
+        <div class="col-3">
+          row 5 col 2  span 3
+        </div>
+        <!-- sizing acc to content--->
+        <div class="col-4">
+          row 5 col 3  span 4
+        </div>
+
+      </div>
+      <div class="row myrow h-25 align-items-center">
+        <div class="col-2">
+          row 6 col 1 span 2
+        </div>
+        <div class="col-3 align-self-end">
+          row 6 col 2  span 3
+        </div>
+        <!-- sizing acc to content--->
+        <div class="col-4">
+          row 6 col 3  span 4
+        </div>
+
+      </div>
+       <div class="row">
+        <div class="col-2" ml-auto="">
+          row 7 col 1 span 2
+        </div>
+        <div class="col-3">
+          row 7 col 2  span 3
+        </div>
+        <!-- sizing acc to content--->
+        <div class="col-4">
+          row 7 col 3  span 4
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="./flex_files/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="./flex_files/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="./flex_files/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+<div id="shadowMeasureIt"></div><div id="divCoordMeasureIt"></div><div id="divRectangleMeasureIt"><div id="divRectangleBGMeasureIt"></div></div></body></html>
